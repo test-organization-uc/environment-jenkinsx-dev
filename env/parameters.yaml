@@ -1,0 +1,10 @@
+adminUser:
+  password: local:jenkinsx/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: ernesto.espinosa@gmail.com
+  token: local:jenkinsx/pipelineUser:token
+  username: eespinosa-ucsb
+prow:
+  hmacToken: local:jenkinsx/prow:hmacToken
