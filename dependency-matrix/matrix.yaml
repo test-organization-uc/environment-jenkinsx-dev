@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/test-organization-uc/spring-boot-http-gradle.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: test-organization-uc
+  repo: express-hello
+  url: https://github.com/test-organization-uc/express-hello.git
+  version: ""
+  versionURL: ""
