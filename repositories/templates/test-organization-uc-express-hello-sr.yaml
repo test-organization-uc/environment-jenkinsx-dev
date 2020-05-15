@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: test-organization-uc
+    provider: github
+    repository: express-hello
+  name: test-organization-uc-express-hello
+spec:
+  description: Imported application for test-organization-uc/express-hello
+  httpCloneURL: https://github.com/test-organization-uc/express-hello.git
+  org: test-organization-uc
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: express-hello
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/test-organization-uc/express-hello.git
