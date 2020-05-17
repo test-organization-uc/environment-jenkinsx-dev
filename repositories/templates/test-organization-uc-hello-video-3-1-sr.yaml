@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: test-organization-uc
+    provider: github
+    repository: hello-video-3-1
+  name: test-organization-uc-hello-video-3-1
+spec:
+  description: Imported application for test-organization-uc/hello-video-3-1
+  httpCloneURL: https://github.com/test-organization-uc/hello-video-3-1.git
+  org: test-organization-uc
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: hello-video-3-1
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/test-organization-uc/hello-video-3-1.git
