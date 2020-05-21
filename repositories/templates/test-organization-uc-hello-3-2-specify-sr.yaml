@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: test-organization-uc
+    provider: github
+    repository: hello-3-2-specify
+  name: test-organization-uc-hello-3-2-specify
+spec:
+  description: Imported application for test-organization-uc/hello-3-2-specify
+  httpCloneURL: https://github.com/test-organization-uc/hello-3-2-specify.git
+  org: test-organization-uc
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: hello-3-2-specify
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/test-organization-uc/hello-3-2-specify.git
