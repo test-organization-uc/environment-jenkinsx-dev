@@ -29,3 +29,9 @@ dependencies:
   url: https://github.com/test-organization-uc/hello-3-2-specify.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: test-organization-uc
+  repo: hello-3-5-audit
+  url: https://github.com/test-organization-uc/hello-3-5-audit.git
+  version: ""
+  versionURL: ""
